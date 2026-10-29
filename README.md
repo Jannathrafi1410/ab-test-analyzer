@@ -210,28 +210,6 @@ Rather than displaying a single static number based on fixed assumptions, the bu
    - **Conservative Bound (95% CI Low):** $+60\text{M} \times \$0.29 = \mathbf{+\$17.3\text{M} / \text{year}}$
    - **Optimistic Bound (95% CI High):** $+60\text{M} \times \$1.47 = \mathbf{+\$88.2\text{M} / \text{year}}$
 
----
-
-## Executive Rollout Recommendation & Roadmap
-
-### Verdict: `CONDITIONAL ROLLOUT`
-- **Primary Conversion:** $+8.82\%$ overall lift ($p < 0.001$).
-- **Segment Heterogeneity:** Statistically confirmed interaction demonstrating severe degradation among Power Users ($-7.74\%$).
-- **Action:** Ship One-Click Checkout to New Users and Mobile sessions immediately. Hold Power Users on the legacy 3-step checkout.
-
-### 3-Phase Execution Roadmap
-1. **Phase 1: Segmented Rollout (Immediate)**
-   - Roll out One-Click checkout to 100% of New Users and Mobile sessions.
-   - Maintain 100% Control (legacy 3-step) for Power Users.
-2. **Phase 2: Telemetry & Qualitative Validation (Month 1)**
-   - Instrument card-switching and address-changing events to empirically test the qualitative friction hypothesis.
-   - Run usability interviews with high-frequency purchasers.
-   - Design and test a 1-tap preset selector drawer for multi-address shoppers.
-3. **Phase 3: Guardrail Holdout & Long-Term Monitoring (Months 2–3)**
-   - Maintain a 5% global holdout on legacy checkout for 90 days.
-   - Monitor repeat purchase frequency, cancellation/return rates, and 90-day cumulative LTV.
-
----
 
 ## Resume Bullet Points
 
@@ -244,9 +222,4 @@ E-Commerce A/B Testing & Funnel Analytics Platform | Python, Streamlit, Plotly, 
 • Modeled transparent annualized revenue impact using RPU confidence bounds (+$17.3M to +$88.2M/yr) and authored a 3-phase quality-gated rollout architecture.
 ```
 
----
 
-## License
-Distributed under the MIT License. Built for Data Science, Product Analytics, and Experimentation Engineering portfolios.
-"# ab-test-analyzer" 
-"# ab-test-analyzer" 
